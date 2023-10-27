@@ -1,0 +1,85 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+/* Your exercise starts here */
+
+/* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
+
+.button1 {
+  background-color: #04aa6d;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 6px 18px;
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+}
+
+.button1:hover {
+  background-color: #fff;
+  color: #04aa6d;
+}
+
+.button2 {
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+}
+
+.button2:hover {
+  border: 2px solid #d8d8d8;
+}
+
+.button3 {
+  font-size: 40px;
+  background-color: #48e8ad;
+  color: white;
+  border: none;
+  margin: 5px;
+}
+
+.button3:hover {
+  background-color: bisque;
+  color: rgb(245, 183, 245);
+  font-size: 50px;
+}
+
+.button4 {
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  transition: 0.3s;
+}
+
+.button4:hover {
+  box-shadow: 5px 10px 19px black;
+}
