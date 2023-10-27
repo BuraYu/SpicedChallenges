@@ -25,9 +25,7 @@ button {
   padding: 8px 25px;
 }
 
-/* Your exercise starts here */
-
-/* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
+/* modern button with hover function*/
 
 .button1 {
   background-color: #04aa6d;
@@ -81,5 +79,5 @@ button {
 }
 
 .button4:hover {
-  box-shadow: 5px 10px 19px black;
+  box-shadow: 5px 8px 18px black;
 }
