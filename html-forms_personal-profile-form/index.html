@@ -15,10 +15,16 @@
         <p>We want to get to know you! Please enter your persona information</p>
         <fieldset>
           <legend>Personal Information</legend>
+
           <label for="name">First Name:</label>
           <input type="text" name="name" id="name" />
           <label for="last-name">Last Name:</label>
           <input type="text" name="last-name" id="name" />
+          <label for="email">Enter email</label>
+          <input
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          />
           <label for="date"></label>
           <input type="date" name="date" id="date" />
         </fieldset>
