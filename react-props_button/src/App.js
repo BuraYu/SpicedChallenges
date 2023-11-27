@@ -18,15 +18,16 @@ export default function App() {
 
 function Button(props) {
   if (props.disable) {
-    return (
-      <button color={props.color} disabled={props.disable}>
-        {props.text}
-      </button>
-    );
+    return <button disabled={props.disable}>{props.text}</button>;
   } else {
     return (
       <button
-        color={props.color}
+        style={{
+          height: "75px",
+          width: "200px",
+          color: props.color,
+          fontSize: "36px",
+        }}
         disabled={props.disable}
         onClick={props.onClick}
       >
