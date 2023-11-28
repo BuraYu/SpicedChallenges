@@ -1,5 +1,9 @@
 import "./styles.css";
 
 export default function App() {
-  return <h1>Replace me with your component!</h1>;
+  return <Greeting name="Burak" />;
+}
+
+function Greeting(props) {
+  return <h1>Hallo, {props.name}</h1>;
 }
