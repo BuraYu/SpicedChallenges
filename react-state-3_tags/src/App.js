@@ -6,9 +6,14 @@ import List from "./components/List/index.js";
 export default function App() {
   const [tags, setTags] = useState(["JavaScript", "React", "CSS", "HTML"]);
 
+  function handleAddTag({ newTag }) {
+    console.log(newTag);
+    setTags([...tags, newTag]);
+  }
+
   return (
     <main className="app">
-      <Form />
+      <Form handleAddTag={handleAddTag} />
       <List tags={tags} />
     </main>
   );
